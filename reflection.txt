@@ -1,0 +1,6 @@
+1. use HashMap wisely to avoid scanning elements in an array in a loop - O(1) look-up!
+2. if given an array question, can ask clarifying questions as follows:
+	a. contains negative numbers?
+	b. sorted?
+	c. contains duplicates?
+
