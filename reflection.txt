@@ -3,4 +3,18 @@
 	a. contains negative numbers?
 	b. sorted?
 	c. contains duplicates?
+3. use divide&conquer to split the problem into subproblems
+4. find duplicate number in the array, given the requirement that time complexity cannot be O(n^2), cannot use brute force
+	=> consider binary search method, takes O(nlogn) time
+	=> another solution is O(n) http://keithschwarz.com/interesting/code/find-duplicate/FindDuplicate.python.html with linked list and ptrs
+5. consider special/base cases before writing code,
+	a. if string is null? len = 1?
+	b. if array is empty? len = 1?
+	c. if number is 0? is 1?
+6. if given running time requirement with logn, consider binary search
+7. linked-list questions:
+	a. use ptrs to keep track of current position
+	b. check if both LLs are null or only need one of them to be not null
+	c. how to update the ptrs
+
 
