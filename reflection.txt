@@ -16,8 +16,19 @@
 	a. use ptrs to keep track of current position
 	b. check if both LLs are null or only need one of them to be not null
 	c. how to update the ptrs
-
-8. check if a binary tree is valid:
+8. check if a BST is valid:
 	a. get the min of right child & max of left child
 	b. true if rightMin > root.val && leftMax < root.val (check recursively), return false immediately if this condition is not satisfied
+9. checks on a binary tree:
+	a. root itself is null?
+	b. both children exist?
+		=> recursive cases here?
+		=> possible iterative solution with Stack or Queue
+	c. both children missing?
+	d. missing one children?
+	
+
+
+
+
 
