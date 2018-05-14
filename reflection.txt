@@ -17,4 +17,7 @@
 	b. check if both LLs are null or only need one of them to be not null
 	c. how to update the ptrs
 
+8. check if a binary tree is valid:
+	a. get the min of right child & max of left child
+	b. true if rightMin > root.val && leftMax < root.val (check recursively), return false immediately if this condition is not satisfied
 
