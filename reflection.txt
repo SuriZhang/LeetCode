@@ -26,8 +26,12 @@
 		=> possible iterative solution with Stack or Queue
 	c. both children missing?
 	d. missing one children?
-	
-
+10. binary tree problems : consider recursion first, think carefully about base case && recursive cases
+11. tree traversal: in-order, pre-order, post-order
+12. TwoSum:
+	a. standard version: input is an array =>  use HashMap to reduce loops 
+	b. input is a BST => convert to a list(ArrayList<Intger>) => standard version
+13. BFS & DFS: https://www.geeksforgeeks.org/level-order-tree-traversal/
 
 
 
