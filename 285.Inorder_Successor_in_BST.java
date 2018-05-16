@@ -24,3 +24,4 @@ class Solution {
         return successor;
     }
 }
+// O(h) time, O(1) space
