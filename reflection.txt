@@ -31,8 +31,13 @@
 12. TwoSum:
 	a. standard version: input is an array =>  use HashMap to reduce loops 
 	b. input is a BST => convert to a list(ArrayList<Intger>) => standard version
-13. BFS & DFS: https://www.geeksforgeeks.org/level-order-tree-traversal/
-
-
-
+13. BFS & DFS for a tree: https://www.geeksforgeeks.org/level-order-tree-traversal/
+	=> Tl;Dr:
+	 BFS uses a queue(initalized with root), if not current content in the queue is not a match, then add it's children into the queue, return false if queue is empty
+	DFS uses recursion and asks all it's children "do you have a path to target?" 
+14. DFS for a graph:
+	=> (algorithm) https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/
+	=> (application) https://www.geeksforgeeks.org/?p=11644
+15. Backtracking: a general algorithm for finding all (or some) solutions to some computational problems, that incrementally builds candidates to the solutions, and abandons each partial candidate (“backtracks”) as soon as it determines that the candidate cannot possibly be completed to a valid solution.
+	=>(VERY USEFUL!) general approach templates: https://leetcode.com/problems/combination-sum/discuss/16502/A-general-approach-to-backtracking-questions-in-Java-(Subsets-Permutations-Combination-Sum-Palindrome-Partitioning)
 
