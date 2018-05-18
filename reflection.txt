@@ -40,4 +40,4 @@
 	=> (application) https://www.geeksforgeeks.org/?p=11644
 15. Backtracking: a general algorithm for finding all (or some) solutions to some computational problems, that incrementally builds candidates to the solutions, and abandons each partial candidate (“backtracks”) as soon as it determines that the candidate cannot possibly be completed to a valid solution.
 	=>(VERY USEFUL!) general approach templates: https://leetcode.com/problems/combination-sum/discuss/16502/A-general-approach-to-backtracking-questions-in-Java-(Subsets-Permutations-Combination-Sum-Palindrome-Partitioning)
-
+16. learn to generalize a problem, sometimes they are all related, just in another form (diff input type / style)
