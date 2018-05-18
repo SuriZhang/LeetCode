@@ -22,3 +22,30 @@ class Solution {
         return true;
     }
 }
+
+
+// sample 4ms submission
+public boolean canAttendMeetings(Interval[] intervals) {
+        int len=intervals.length;
+        if(len==0){
+            return true;
+        }
+        int[]begin=new int[len];
+        int[]stop=new int[len];
+        for(int i=0;i<len;i++){
+            begin[i]=intervals[i].start;
+            stop[i]=intervals[i].end;
+        }
+	// sort start & end time to check overlap
+        Arrays.sort(begin);
+        Arrays.sort(stop);
+        int endT=0;
+
+        for(int i=1;i<len;i++){
+            if(begin[i]<stop[i-1]){
+                return false;
+            }
+        }
+        return true;
+    }
+
