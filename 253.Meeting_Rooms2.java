@@ -42,7 +42,7 @@ class Solution {
     public int minMeetingRooms(Interval[] intervals) {
         if(intervals == null || intervals.length == 0) return 0;
         if(intervals.length == 1) return 1;
-        // sort by finish time
+        // sort by start time
         Arrays.sort(intervals, new Comparator<Interval>() {
         @Override
         public int compare(Interval o1, Interval o2) {
