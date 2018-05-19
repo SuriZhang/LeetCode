@@ -41,3 +41,21 @@
 15. Backtracking: a general algorithm for finding all (or some) solutions to some computational problems, that incrementally builds candidates to the solutions, and abandons each partial candidate (“backtracks”) as soon as it determines that the candidate cannot possibly be completed to a valid solution.
 	=>(VERY USEFUL!) general approach templates: https://leetcode.com/problems/combination-sum/discuss/16502/A-general-approach-to-backtracking-questions-in-Java-(Subsets-Permutations-Combination-Sum-Palindrome-Partitioning)
 16. learn to generalize a problem, sometimes they are all related, just in another form (diff input type / style)
+17. java sort a user defined class: implement a Comparator class 
+	=> https://www.geeksforgeeks.org/collections-sort-java-examples/
+18. use data structres like heap, bst, priority queue, stack, queue when possible!
+19. when doing design problems, be very familiar with data structures and their properties are very IMPORTANT!
+	=> read this (a intro & comparisons between DS): https://medium.com/omarelgabrys-blog/diving-into-data-structures-6bc71b2e8f92 
+20. java remove all non-character/number in a string s = s.replaceAll("[^A-Za-z0-9]+", "")
+21. test the code throughoutly before submit!
+22. if wish to pertain order of insertion -- use LinkedHashMap or TreeMap in Java
+
+
+
+
+
+
+
+
+
+
