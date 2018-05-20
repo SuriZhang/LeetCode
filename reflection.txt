@@ -49,6 +49,7 @@
 20. java remove all non-character/number in a string s = s.replaceAll("[^A-Za-z0-9]+", "")
 21. test the code throughoutly before submit!
 22. if wish to pertain order of insertion -- use LinkedHashMap or TreeMap in Java
+23. use String.equals() to compare a string
 
 
 
