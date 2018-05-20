@@ -50,7 +50,7 @@
 21. test the code throughoutly before submit!
 22. if wish to pertain order of insertion -- use LinkedHashMap or TreeMap in Java
 23. use String.equals() to compare a string
-
+24. when doing int arithmetic => be careful with range, and check the overflow cases
 
 
 
