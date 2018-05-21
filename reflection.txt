@@ -51,8 +51,8 @@
 22. if wish to pertain order of insertion -- use LinkedHashMap or TreeMap in Java
 23. use String.equals() to compare a string
 24. when doing int arithmetic => be careful with range, and check the overflow cases
-
-
+25. if there is a time complexity requirement, avoid nested loops and start from useful data structures(hash map, hash set, hash table, queue, etc.)
+26. keep track of ptrs in LinkedLists (current, previous, next)
 
 
 
