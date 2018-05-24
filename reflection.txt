@@ -58,8 +58,9 @@
 	-> store the intermediate values instead of calculating it each time
 29. if doing matching problems, consider stack
 30. in java Stack.peek() is equivalent to stack.top
-
-
+31. in LinkedList: BE VERY CAREFUL WITH NullPtrException!!!!!
+32. slow & fast ptr can solve some of LinkedList problems, remember to consider 2ptr alg 
+	=> improve extra space
 
 
 
