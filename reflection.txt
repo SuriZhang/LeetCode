@@ -61,6 +61,14 @@
 31. in LinkedList: BE VERY CAREFUL WITH NullPtrException!!!!!
 32. slow & fast ptr can solve some of LinkedList problems, remember to consider 2ptr alg 
 	=> improve extra space
+33. sometimes it is necessary to make a dummy head node for linked list to avoid NullPtrException in the end
+	=> ListNode start = new ListNode(-1);
+	   start.next = head;
+34. can use PriorityQueue to impl a heap in Java
+
+
+
+
 
 
 
