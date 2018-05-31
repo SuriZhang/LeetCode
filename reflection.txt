@@ -65,7 +65,7 @@
 	=> ListNode start = new ListNode(-1);
 	   start.next = head;
 34. can use PriorityQueue to impl a heap in Java
-
+35. sort Interval by start time:  intervals.sort((i1, i2) -> Integer.compare(i1.start, i2.start));
 
 
 
