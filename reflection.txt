@@ -66,7 +66,7 @@
 	   start.next = head;
 34. can use PriorityQueue to impl a heap in Java
 35. sort Interval by start time:  intervals.sort((i1, i2) -> Integer.compare(i1.start, i2.start));
-
+36. if the result is a String type, consider using StringBuilder and write a helper function modifying the StringBuilder, finally return SB.toString()
 
 
 
