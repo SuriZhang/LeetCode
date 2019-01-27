@@ -36,3 +36,38 @@ class Solution {
         return lives;
     }
 }
+
+
+
+class Solution {
+    public void gameOfLife(int[][] board) {
+        int m = board.length;
+        int n = board[0].length;
+        
+        for (int i = 0; i < m; ++i) {
+            for (int j = 0; j < n; ++j) {
+                int lives = 0;
+                
+                // scan 3x3 region around board[j,i]
+                for (int y = Math.max(0, i-1); y <= Math.min(m-1, i+1); ++y) {
+                    for(int x = Math.max(0, j-1); x <= Math.min(n-1, j+1); ++x) {
+                        // use & 1 to avoid updated cell status
+                        lives += board[y][x] & 1;
+                    }
+                }
+                
+                if (lives == 3 || lives - board[i][j] == 3) {
+                    // updates the second last bit
+                    board[i][j] |= 0b10;
+                }
+            }
+        }
+        
+        for (int i = 0; i < m; ++i) {
+            for (int j = 0; j < n; ++j) {
+                board[i][j] >>= 1;
+            }
+        }
+    
+  }
+}
