@@ -73,7 +73,7 @@
 	-> compare occurrence of each character in S and T, if char in T occurs more than that in S does not have such substring
 39. DP - think carefully about states and functions, draw a pic may be helpful
 40. stock problem: https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/discuss/108870/Most-consistent-ways-of-dealing-with-the-series-of-stock-problems
-
+41. if given parameters are in List, can convert it to hash sets for faster look up and check if contains.
 
 
 
